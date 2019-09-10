@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+#nav{
+    height: 100px;
+    background-color: #CC2787;
+}
+#nav> img{
+    width: 200px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
