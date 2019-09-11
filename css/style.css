@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 #nav{
     height: 100px;
@@ -30,4 +31,37 @@ body{
 }
 .active{
     color:#352681 !important;
+}
+#tickets{
+    width: 100vw;
+    padding-left: 5vw;
+    padding-top: 5vh;
+}
+#tickets>div{
+    display: inline-block
+}
+.ticket{
+    width: 500px;
+    height: 250px;
+    background-image: url(../img/voucherPrzyklad.jpg);
+    background-size: contain;
+    border: 2px solid #352681;
+    margin-bottom: 30px;
+}
+.buyTicket button{
+    width: 100px;
+    height: 50px;
+    color: #CC2787;
+    background-color: white;
+    border: 2px solid #CC2787;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    position: relative;
+    top:-180px;
+    left: 550px;
+}
+.buyTicket button:hover{
+    color:white;
+    background-color: #CC2787;
 }
