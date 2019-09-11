@@ -76,3 +76,8 @@ body {
     color: white;
     background-color: #CC2787;
 }
+
+.basketOfTickets{
+    height: 5vh;
+    width: 10vw;
+}
