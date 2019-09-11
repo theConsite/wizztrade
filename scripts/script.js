@@ -5,14 +5,18 @@ function sleep(seconds){
     while(new Date().getTime() < waitUntil) true;
 }
 
-
+avaible=9
 
 tickets=document.getElementsByClassName('buyTicket')
 basket=document.getElementsByClassName('numberOfBuy')[0]
 delTicket=document.getElementsByClassName('delTicket')[0]
+
 delTicket.addEventListener("click", function(){
+    console.log(avaible)
+    
     amount = basket.innerText
     if(amount>0){
+        avaible+=1
         basket.innerText = parseInt(amount)-1
         document.getElementsByClassName('alert')[0].classList.add('hidden')
     }}
@@ -23,7 +27,7 @@ tickets[0].addEventListener("click", function(){
     console.log(basket.classList )
     
     if(amount < 5){
-  
+        avaible-=1
     console.log(basket.classList )
 
     basket.innerText = parseInt(amount)+1}
@@ -40,7 +44,7 @@ tickets[0].addEventListener("click", function(){
     
 
     if(amount<5){
-
+        avaible-=1
         
     basket.innerText = parseInt(amount)+1}else{
 document.getElementsByClassName('alert')[0].classList.remove('hidden')    }
