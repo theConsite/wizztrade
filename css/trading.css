@@ -21,32 +21,58 @@
     border-bottom: 2px solid #cc2787;
     box-sizing: border-box;
 }
-.user>img{
+
+.user > img {
     width: 50px;
     position: relative;
     top: 15px;
     margin-right: 10px;
 }
-.user{
+
+.user {
     padding-left: 20px;
     padding-top: 10px;
 }
-.user>span{
-    color:#cc2787;
+
+.user > span {
+    color: #cc2787;
     font-size: 20px;
 }
-.fromToDate{
+
+.fromToDate {
     padding-left: 20px;
     padding-top: 40px;
 }
-.fromToDate p{
+
+.fromToDate p {
     font-size: 24px;
     font-weight: bold;
     color: #352681;
 }
-.fromToDate p>span{
+
+.fromToDate p > span {
     color: #cc2787;
 }
-.fromToDate p:first-of-type{
+
+.fromToDate p:first-of-type {
     font-size: 30px;
+}
+
+#tradeFinish button {
+    font-size: 24px;
+    font-weight: bold;
+    color: #cc2787;
+    border: 2px solid #cc2787;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    left: calc(15vw - 83.4px);
+    top: calc(400px - 14px);
+}
+
+#tradeFinish button:hover {
+    color: white;
+    background-color: #cc2787;
 }
