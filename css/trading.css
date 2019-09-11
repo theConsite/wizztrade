@@ -21,3 +21,32 @@
     border-bottom: 2px solid #cc2787;
     box-sizing: border-box;
 }
+.user>img{
+    width: 50px;
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+}
+.user{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.user>span{
+    color:#cc2787;
+    font-size: 20px;
+}
+.fromToDate{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.fromToDate p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #352681;
+}
+.fromToDate p>span{
+    color: #cc2787;
+}
+.fromToDate p:first-of-type{
+    font-size: 30px;
+}
