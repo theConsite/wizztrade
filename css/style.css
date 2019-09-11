@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 #nav{
     height: 100px;
@@ -10,4 +11,23 @@ body{
     height: 80px;
     margin-left: 20px;
     margin-top: 10px;
+}
+#nav>#menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    transition: .3s;
+}
+#nav>#menu a:hover{
+    color: #352681;
+}
+#nav>#menu{
+    width: 300px;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+.active{
+    color:#352681 !important;
 }
