@@ -102,4 +102,34 @@ body {
     /* When the animation is finished, start again */
     animation-iteration-count: 1;
   }
-  
+.alert-danger-alt { 
+    padding: 1.2%;
+    border-color: #B63E5A;
+    background: #E26868;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+}
+.glyphicon { margin-right:10px; }
+.hidden{
+    opacity: 0;
+
+}
+.delTicket button {
+    width: 100px;
+    height: 50px;
+    color: #CC2787;
+    background-color: white;
+    border: 2px solid #CC2787;
+    font-size: 15px;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+
+
+}
+.delTicket button:hover {
+    color: white;
+    background-color: #CC2787;
+}
