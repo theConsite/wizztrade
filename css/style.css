@@ -59,7 +59,8 @@ body {
 }
 
 #tickets > div {
-    display: inline-block
+    display: inline-block;
+    margin-bottom: 50px;
 }
 
 .ticket {
@@ -68,13 +69,18 @@ body {
     background-image: url(../img/voucherPrzyklad.jpg);
     background-size: contain;
     border: 2px solid #352681;
-    margin-bottom: 30px;
+    
 }
 #tick2{
     background-image: url(../img/voucher2.jpg);
 }
+.available{
+    margin-top: 40px;
+    font-size: 24px;
+}
 
 .buyTicket button {
+    margin-top: 20px;
     width: 100px;
     height: 50px;
     color: #CC2787;
@@ -83,9 +89,7 @@ body {
     font-size: 30px;
     border-radius: 20px;
     transition: .3s ease-in-out;
-    position: relative;
-    top: -180px;
-    left: 550px;
+    float: right;
 }
 
 .buyTicket button:hover {
