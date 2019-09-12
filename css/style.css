@@ -70,6 +70,9 @@ body {
     border: 2px solid #352681;
     margin-bottom: 30px;
 }
+#tick2{
+    background-image: url(../img/voucher2.jpg);
+}
 
 .buyTicket button {
     width: 100px;
