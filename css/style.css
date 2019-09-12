@@ -53,7 +53,7 @@ body {
 }
 
 #tickets {
-    width: 100vw;
+    width: 70vw;
     padding-left: 5vw;
     padding-top: 5vh;
 }
@@ -140,4 +140,25 @@ body {
 .delTicket button:hover {
     color: white;
     background-color: #CC2787;
+}
+#otherTickets{
+    width: 29vw;
+    height: 600px;
+    position: absolute;
+    top: 130px;
+    right: 1vw;
+    
+}
+#otherTickets>h2{
+    color:#CC2787;
+}
+.other{
+    width: 100px;
+    height: 60px;
+    background-image: url(../img/other.png);
+    background-size: contain;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: calc(29vw - 200px);
 }
