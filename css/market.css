@@ -1,0 +1,55 @@
+.offer {
+    height: 100px;
+    border-bottom: 2px solid #cc2787;
+    padding-left: 10px;
+}
+
+.offer > div {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-right: 20px;
+}
+
+.offer p {
+    color: #cc2787;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p > span {
+    color: #352681;
+}
+
+.buyButton > button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    color: #CC2787;
+    background-color: white;
+    border: 2px solid #CC2787;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+.buyButton > button:hover {
+    color: white;
+    background-color: #CC2787;
+}
+
+.from {
+    width: 150px;
+}
+
+.to {
+    width: 130px;
+}
+
+.price {
+    width: 300px;
+}
+
+.buyButton {
+    width: 100px;
+    left: calc(100vw - 800px) !important;
+}
