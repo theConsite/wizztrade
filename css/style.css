@@ -153,12 +153,18 @@ body {
     color:#CC2787;
 }
 .other{
-    width: 100px;
-    height: 60px;
-    background-image: url(../img/other.png);
+    width: 250px;
+    height: 125px;
     background-size: contain;
-    border-radius: 10px;
     position: relative;
     margin-bottom: 20px;
-    margin-left: calc(29vw - 200px);
+    margin-left: calc(29vw - 300px);
+    border: 1px solid #352681;
+    cursor: pointer;
+}
+.other:first-of-type{
+    background-image: url(../img/voumini.jpg);
+}
+.other:nth-of-type(2){
+    background-image: url(../img/voumini2.jpg)
 }
