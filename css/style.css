@@ -1,16 +1,49 @@
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -69,12 +102,13 @@ body {
     background-image: url(../img/voucherPrzyklad.jpg);
     background-size: contain;
     border: 2px solid #352681;
-    
 }
-#tick2{
+
+#tick2 {
     background-image: url(../img/voucher2.jpg);
 }
-.available{
+
+.available {
     margin-top: 40px;
     font-size: 24px;
 }
@@ -96,21 +130,23 @@ body {
     color: white;
     background-color: #CC2787;
 }
-.basketOfTickets{
+
+.basketOfTickets {
     color: #CC2787;
     font-size: 40px;
     position: fixed;
     right: 60px;
     bottom: 50px;
 }
+
 .basketOfTickets:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s;
-  
     /* When the animation is finished, start again */
     animation-iteration-count: 1;
-  }
-.alert-danger-alt { 
+}
+
+.alert-danger-alt {
     padding: 1.2%;
     border-color: #B63E5A;
     background: #E26868;
@@ -120,11 +156,15 @@ body {
     top: 40%;
     transform: translateX(-50%);
 }
-.glyphicon { margin-right:10px; }
-.hidden{
-    opacity: 0;
 
+.glyphicon {
+    margin-right: 10px;
 }
+
+.hidden {
+    opacity: 0;
+}
+
 .delTicket button {
     width: 100px;
     height: 50px;
@@ -134,25 +174,26 @@ body {
     font-size: 15px;
     border-radius: 20px;
     transition: .3s ease-in-out;
-
-
 }
+
 .delTicket button:hover {
     color: white;
     background-color: #CC2787;
 }
-#otherTickets{
+
+#otherTickets {
     width: 29vw;
     height: 600px;
     position: absolute;
     top: 130px;
     right: 1vw;
-    
 }
-#otherTickets>h2{
-    color:#CC2787;
+
+#otherTickets > h2 {
+    color: #CC2787;
 }
-.other{
+
+.other {
     width: 250px;
     height: 125px;
     background-size: contain;
@@ -162,9 +203,11 @@ body {
     border: 1px solid #352681;
     cursor: pointer;
 }
-.other:first-of-type{
+
+.other:first-of-type {
     background-image: url(../img/voumini.jpg);
 }
-.other:nth-of-type(2){
+
+.other:nth-of-type(2) {
     background-image: url(../img/voumini2.jpg)
 }
